@@ -1,0 +1,13 @@
+FastAPI is a Python web framework for building APIs.
+
+FastAPI uses Python type hints to define and validate request data. It automatically generates interactive API documentation using OpenAPI.
+
+The Swagger UI documentation is available at the /docs endpoint when a FastAPI application is running.
+
+FastAPI applications can define routes using decorators such as @app.get(), @app.post(), @app.put(), and @app.delete().
+
+A GET endpoint is commonly used to retrieve data. A POST endpoint is commonly used to send data to an API or create a resource.
+
+FastAPI can use Pydantic models to validate incoming JSON request data.
+
+Uvicorn is an ASGI server commonly used to run FastAPI applications.

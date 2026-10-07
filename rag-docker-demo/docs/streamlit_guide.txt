@@ -1,0 +1,13 @@
+Streamlit is a Python framework for building interactive web applications and data dashboards.
+
+A Streamlit application can be started with the command streamlit run app.py.
+
+Streamlit uses Python code to create user interface elements such as buttons, text inputs, sliders, charts, tables, and sidebar controls.
+
+The st.title() function displays a title. The st.write() function displays text or other Python objects.
+
+Streamlit applications rerun the Python script when the user interacts with widgets.
+
+Streamlit can display data using st.dataframe() and charts using functions such as st.bar_chart().
+
+A Streamlit application can communicate with a FastAPI backend by sending HTTP requests using the requests library.
